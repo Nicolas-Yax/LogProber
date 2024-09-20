@@ -1,0 +1,67 @@
+[{
+	"prompt":"A scarf costs 210€ more than a hat. The scarf and the hat cost 220€ in total. How much does the hat cost?",
+	"answers":[],
+	"keywords":{
+	    "correct":["5 euros","5€","five euros"],
+	    "intuitive":["10 euros","10€","ten euros"]
+	},
+	"info":{"extraction_sequence":"According to the answer given before, what should be in the [??] box.\n The hat costs [??]."}
+    },
+	{
+	"prompt":"How long would it take 80 carpenters to repair 80 tables, if it takes 8 carpenters 8 hours to repair 8 tables?",
+	"answers":[],
+	"keywords":{
+	    "correct":["8 hours","eight hours"],
+	    "intuitive":["80 hours","eighty hours"]
+	},
+	"info":{"extraction_sequence":"According to the answer given before, what should be in the [??] box.\n 80 carpenters would need [??] to repair 80 tables."}
+    },
+	{
+	"prompt":"An entire forest was consumed by a wildfire in 40 hours, with its size doubling every hour. How long did it take to burn 50% of the forest?",
+	"answers":[],
+	"keywords":{
+	    "correct":["39 hours","thirty-nine hours"],
+	    "intuitive":["20 hours","twenty hours"]
+	},
+	"info":{"extraction_sequence":"According to the answer given before, what should be in the [??] box.\n It took [??] to burn 50% of the forest."}
+    },
+	{
+	"prompt":"If Andrea can clean a house in 3 hours, and Alex can clean a house in 6 hours, how many hours would it take for them to clean a house together?",
+	"answers":[],
+	"keywords":{
+	    "correct":["2 hours","two hours"],
+	    "intuitive":["9 hours","nine hours"]
+	},
+	"info":{"extraction_sequence":"According to the answer given before, what should be in the [??] box.\n It would take them [??] to clean the house together."}
+    },
+	{
+	"prompt":"A runner participates in a marathon and arrives both at the 100th highest and the 100th lowest position. How many participants are in the marathon?",
+	"answers":[],
+	"keywords":{
+	    "correct":["199 participants","one hundred ninety-nine participants"],
+	    "intuitive":["200 participants","two hundred participants"]
+	},
+	"info":{"extraction_sequence":"According to the answer given before, what should be in the [??] box.\n There are [??]."}
+    },
+	{
+	"prompt":"A woman buys a second-hand car for $1000, then sells it for $2000. Later she buys it back for $3000 and finally sells it for $4000. How much has she made?",
+	"answers":[],
+	"keywords":{
+	    "correct":["$2000","$2k","$2,000","two thousand dollars"],
+	    "intuitive":["$1000","$1k","$1,000","one thousand dollars"]
+	},
+	"info":{"extraction_sequence":"According to the answer given before, what should be in the [??] box.\n She has made [??]."}
+    },
+	{
+	"prompt":"Frank decided to invest $10,000 into bitcoin in January 2018. Four months after he invested, the bitcoin he had purchased went down 50%. In the subsequent eight months, the bitcoin he had purchased went up 80%. What is the value of Frank’s bitcoin after one year?",
+	"answers":[],
+	"keywords":{
+	    "correct":["$9000","$9k","$9,000","nine thousand dollars"],
+	    "intuitive":["$18000","$18k","$18,000","eighteen thousand dollars"]
+	},
+	"info":{"extraction_sequence":"According to the answer given before, what should be in the [??] box.\n His investement in bitcoin is now worth [??]."}
+    }
+]
+
+
+

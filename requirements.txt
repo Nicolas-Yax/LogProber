@@ -1,0 +1,11 @@
+pathos
+pandas
+openai
+python-decouple
+scipy
+pyyaml
+matplotlib
+torch
+transformers
+flask
+xlsxwriter

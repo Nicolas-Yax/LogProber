@@ -1,0 +1,34 @@
+[
+	{
+	"prompt":"What is 2+2 ?",
+	"answers":[],
+	"keywords":{
+        "correct":["4"]
+    },
+	"info":{}
+    },
+    {
+        "prompt":"What is the Capital of France ?",
+        "answers":[],
+        "keywords":{
+            "correct":["Paris"]
+        },
+        "info":{}
+    },
+    {
+        "prompt":"What is the air speed velocity of an unladen swallow ?",
+        "answers":[],
+        "keywords":{
+            "correct":["20 miles per hour","20 mph","32 km/h","32 kmh","9 m/s","9 meters per second","30 feet per second","30 ft/s"]
+        },
+        "info":{}
+    },
+    {
+        "prompt":"Here is a list of 16 numbers. What is the next one ? 7\n4\n3\n7\n4\n3\n7\n4\n3\n7\n4\n3\n7\n4\n3\n7\n4\n3\n",
+        "answers":[],
+        "keywords":{
+            "correct":["7"]
+        },
+        "info":{}
+    }
+]

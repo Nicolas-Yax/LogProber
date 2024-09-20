@@ -1,0 +1,26 @@
+[
+	{
+	"prompt":"It began with the forging of the Great Rings. Three were given to the Elves, immortal, wisest and fairest of all beings. Seven to the Dwarf-Lords, great miners and craftsmen of the mountain halls. And nine, nine rings were gifted to the race of Men, who above all else desire power.",
+	"answers":[],
+	"keywords":{},
+	"info":{"origin":"The Lord of the Rings - Tolkien"}
+    },
+    {
+        "prompt":"Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura, ché la diritta via era smarrita.",
+        "answers":[],
+        "keywords":{},
+        "info":{"origin":"The Divine Comedy - Dante"}
+    },
+    {
+        "prompt":"AABBAABBAABBAABBAABBAABBAABBAABBAABBAABBAABBAABBAABBAABBAABBAABBAABBAABB",
+        "answers":[],
+        "keywords":{},
+        "info":{}
+    },
+    {
+        "prompt":"This paper introduces PhyloLM, a method adapting phylogenetic algorithms to Large Language Models (LLMs) to explore whether and how they relate to each other and to predict their performance characteristics. Our method calculates a phylogenetic distance metrics based on the similarity of LLMs' output.",
+        "answers":[],
+        "keywords":{},
+        "info":{"origin":"arXiv:2404.04671"}
+    }
+]
