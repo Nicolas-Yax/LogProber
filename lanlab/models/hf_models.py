@@ -8,7 +8,7 @@ import os
 import time
 
 from lanlab.models.model import Model
-from lanlab.models.openai_models import sequence_from_OPENAICompletion
+from lanlab.models.openai_models import segment_from_OPENAICompletion
 from lanlab.data_management.batch.sequence import Sequence
 from lanlab.models.model import ModelConfig
 import requests
@@ -311,7 +311,7 @@ class HFModel(Model):
         answer['model'] = self.name
         if self['return_logits']:
             answer['logits'] = np.array(answer['choices'][0]['logprobs']['logits'],np.float16)
-        segment = sequence_from_OPENAICompletion(answer)
+        segment = segment_from_OPENAICompletion(answer)
         return sequence + segment
 
     def read(self,sequence,config=None):
@@ -324,7 +324,7 @@ class HFModel(Model):
         data = {'prompt':prompt,'logprobs':5,'echo':True,**config.to_dict()}
         answer = requests.post('http://127.0.0.1:'+str(self.port)+'/completions',json=data).json()
         answer['model'] = self.name
-        sequence = sequence_from_OPENAICompletion(answer)
+        sequence = segment_from_OPENAICompletion(answer)
         return sequence
 
 class AutoModel(HFModel):
