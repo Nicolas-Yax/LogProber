@@ -19,3 +19,9 @@ pip install -r requirements.txt
 
 ## Documentation
 This project is built on top of lanlab, a simple library to automate queries to LLMs. The lanlab folder contains the basic materials to make the framework run. The logscores.ipynb notebook contains all the code to replicate the results using lanlab features. If you are interested in better understanding how lanlab works you can refer to the main.ipynb notebook that explains the basics of lanlab.
+
+## Run the code
+- install the required libraries (see **Step by step installation** instructions above).
+- logscores.ipynb is the notebook reproducing figures from the paper.
+- lanlab_tutorial.ipynb is a tutorial for lanlab, a framework used to run the study.
+- colab.ipynb is a simple and versatile implementation of LogProber
